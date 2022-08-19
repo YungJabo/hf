@@ -1,0 +1,47 @@
+.f5{
+    background: url('./images/f5.jpg') no-repeat ;
+    background-position: 23% 100%;
+    min-height: 100vh;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+.f5-cont{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    
+}
+.f5-cont2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 63%;
+}
+.f5-txt1{
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: 400;
+    color: #1B1B1B;
+    margin-bottom: 33px;
+    
+}
+.f5-txt2{
+    font-family: "Montserrat";
+    font-size: 16px;
+    color:#666666;
+    width: 85%;
+    margin-bottom: 12px;
+    
+}
+
+.f5-txt3{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color:#666666;
+    color:#1B1B1B;
+}

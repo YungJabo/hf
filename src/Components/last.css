@@ -1,0 +1,77 @@
+.last{
+    height:430px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.l-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+}
+.card-right{
+    width: 30%;
+    align-items: flex-end;
+}
+.last a{
+    text-decoration: none;
+}
+.l-txt1{
+    font-family: "Montserrat";
+    font-size: 13px;
+    color:white;
+    margin-bottom: 40px;
+}
+.l-txt2{
+    font-family: "Montserrat";
+    color:#7E7E7E;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+.l-txt3{
+    font-family: "Montserrat";
+    color:white;
+    font-size: 12px;
+}
+.l-input{
+    background-color: black;
+    color:#7E7E7E;
+    width: 230px;
+    height: 38px;
+    font-family: "Montserrat";
+    font-size: 12px;
+    border:2px white solid
+
+}
+.l-btn{
+    width: 135px;
+    height: 42px;
+    border:none;
+    background-color: white;
+    font-family: "Montserrat";
+    font-size: 12px;
+    color:#7E7E7E;
+    
+    
+    
+}
+.l-block{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    vertical-align: middle;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+.l-icons{
+    display: flex;
+
+}
+.l-a-icons{
+    margin-left: 26px;
+    margin-bottom: 16px;
+}

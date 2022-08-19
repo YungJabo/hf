@@ -1,0 +1,59 @@
+.foot2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.f2-card1{
+    background: url('./Components/images/f2-left.jpg') no-repeat center center ;
+    height:470px;
+    width: 100%;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.f2-card2{
+    background: url('./Components/images/f2-right.jpg') no-repeat center center ;
+    height:470px;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.f2-txt1{
+    margin-top: 50%;
+    margin-bottom: 12px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 34px;
+    color:white;
+}
+.f2-txt2{
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    max-width: 230px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.f2-btn{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+.f2-btns{
+    display: flex;
+    justify-content: space-between;
+    width: 43%;
+}

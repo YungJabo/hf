@@ -1,0 +1,41 @@
+.f4{
+    background: url('./images/f4.jpg') no-repeat center center;
+    min-height: 100vh;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.f4-txt{
+    
+    font-family: "Roboto";
+    color:white;
+    font-size:38px;
+    margin-bottom: 28px;
+    width: 50%;
+    text-transform: uppercase;
+    text-align: center;
+}
+.f4-btns{
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.f4-btn{
+    padding: 8px 50px 8px 50px;
+        background: none;
+        border: 0;
+        box-sizing: border-box;
+        border: 1px solid white;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        width: 215px;
+}

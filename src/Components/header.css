@@ -1,0 +1,37 @@
+.header{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+
+}
+.h-nav1{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.h-nav2{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header a{
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.h-btn{
+    border-radius: 0;
+    border:none;
+    background-color: black;
+    color:white;
+    width: 64px;
+    height: 23px;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
